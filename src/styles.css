@@ -1,0 +1,93 @@
+/* //////// ----------- RESET, ROOT and REUSABLES ----------- //////// */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --paars: #5722CD;
+    --blauw: #4845E4;
+    --roze: #ED4385;
+    --zwart: #0C0C0C; /*voor standaard tekst*/
+    --lichtpaars: #F2F0FF; /*voor de grote zwevende woorden, zoals "hello" en "services" Uitzonderingen: */
+    --lichtgrijs: #F3F6F9; /*voor de achtergrond van de projecten*/
+    --grijs: #7A7A7A; /*voor de service-tegel tekst*/
+}
+
+/* //////// ----------- HEADER ----------- //////// */
+header {
+    color: var(--lichtgrijs);
+    background: linear-gradient(900deg, var(--blauw), var(--paars));
+    height: 500px;
+}
+
+.header__navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    flex-basis: 400px;
+    padding: 20px;
+    list-style: none;
+}
+
+.header__wrapper {
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__mid-section__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+}
+
+.header__mid-section__text h1,
+.header__mid-section__text p {
+    margin: 20px;
+}
+
+.header__button {
+
+}
+h1 {
+    font-size: 3rem;
+}
+
+li {
+
+}
+
+/* //////// ----------- END OF HEADER ----------- //////// */
+
+/* //////// ----------- MAIN ----------- //////// */
+
+/* //////// ----------- SECTION 1 -  ----------- //////// */
+
+/* //////// ----------- SECTION 2 -  ----------- //////// */
+
+/* //////// ----------- SECTION 3 -  ----------- //////// */
+
+/* //////// ----------- END OF MAIN ----------- //////// */
+
+/* //////// ----------- FOOTER ----------- //////// */
+
+/* //////// ----------- END OF FOOTER ----------- //////// */
+
+/* //////// ----------- MEDIA QUERIES ----------- //////// */
+
